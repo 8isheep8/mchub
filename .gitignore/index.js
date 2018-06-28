@@ -6,7 +6,7 @@ var prefix= '?';
 
 var randnum = 0;
 
-client.login('NDUyNDAzOTE5NjQyMDM0MTc2.Dfqz9w.uCZnFuc0iGDr6_zgh0AUg_wHM94');
+client.login(process.env.TOKEN);
 
 client.on("ready", () => {
     console.log("Prêt au combat chef !");
